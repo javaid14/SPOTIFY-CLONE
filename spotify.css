@@ -123,3 +123,12 @@ nav ul li{
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
+
+@media(max-width:400px){
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 50%;
+    }
+}
