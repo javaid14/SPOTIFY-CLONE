@@ -11,15 +11,15 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 
 let songs = [
-    {songName:"Aksar is duniya mei",filepath:"songs/1.mpeg",coverPath:"covers/1.jpg"},
-    {songName:"Ayei ho meri zindagi mei",filepath:"songs/2.mpeg",coverPath:"covers/2.jpg"},
+    {songName:"Faded",filepath:"songs/1.mpeg",coverPath:"covers/1.jpg"},
+    {songName:"Ayei ho meri",filepath:"songs/2.mpeg",coverPath:"covers/2.jpg"},
     {songName:"Kahani suno",filepath:"songs/3.mpeg",coverPath:"covers/3.jpg"},
     {songName:"Kesariya",filepath:"songs/4.mpeg",coverPath:"covers/4.jpg"},
-    {songName:"Lut Gayei (Emraan Hashmi)",filepath:"songs/5.mpeg",coverPath:"covers/5.jpg"},
-    {songName:"Shaam b Khoob hai",filepath:"songs/6.mpeg",coverPath:"covers/6.jpg"},
+    {songName:"Lut Gayei",filepath:"songs/5.mpeg",coverPath:"covers/5.jpg"},
+    {songName:"Shaam b Khoob",filepath:"songs/6.mpeg",coverPath:"covers/6.jpg"},
     {songName:"Tera fitoor",filepath:"songs/7.mpeg",coverPath:"covers/7.jpg"},
     {songName:"Tere vastei",filepath:"songs/8.mpeg",coverPath:"covers/8.jpg"},
-    {songName:"vibes of love jukebox",filepath:"songs/9.mpeg",coverPath:"covers/9.jpg"},
+    {songName:"love jukebox",filepath:"songs/9.mpeg",coverPath:"covers/9.jpg"},
     {songName:"Zihaal e Miskin",filepath:"songs/10.mpeg",coverPath:"covers/10.jpg"}
 ]
 songItems.forEach((element, i) => {
