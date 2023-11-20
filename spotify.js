@@ -11,6 +11,7 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 
 let songs = [
+    
     {songName:"Faded ",filepath:"songs/1.mpeg",coverPath:"covers/1.jpg"},
     {songName:"Ayei ho meri",filepath:"songs/2.mpeg",coverPath:"covers/2.jpg"},
     {songName:"Kahani suno",filepath:"songs/3.mpeg",coverPath:"covers/3.jpg"},
