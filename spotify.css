@@ -107,13 +107,8 @@ nav ul li{
     margin: 0 23px;
     border-radius: 34px;
 }
-.timestamp {
-    margin:0 23px;
-    
-
-}
-.timestamp i {
-    cursor:pointer;
+.songItemPlay{
+    margin-right: 5px;
 }
 .songInfo {
     position: absolute;
@@ -127,4 +122,12 @@ nav ul li{
     width: 50px;
     opacity: 0;
     transition: opacity 0.4s ease-in;
+}
+@media(max-width:400px){
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 50%;
+    }
 }
